@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.2",
-    "image_tag":  "1.0.2",
-    "release_notes":  "Signierte Offline-Lizenzen: Die Lizenz wird jetzt als faelschungssichere, signierte Datei geprueft (funktioniert ohne Internet). Zentrale Lizenz-Konsole auf Anbieterseite.",
+    "version":  "1.0.3",
+    "image_tag":  "1.0.3",
+    "release_notes":  "Google Drive: Ordnerauswahl funktioniert jetzt auch bei sehr grossen Drives (zehntausende Ordner). Schrittweise Navigation statt alles auf einmal zu laden.",
     "published_at":  "2026-06-04"
 }
