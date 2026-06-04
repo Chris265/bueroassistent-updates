@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.0",
-    "image_tag":  "1.0.0",
-    "release_notes":  "Erste Veroeffentlichung",
-    "published_at":  "2026-05-29"
+    "version":  "1.0.1",
+    "image_tag":  "1.0.1",
+    "release_notes":  "Gmail-Polling Fix: Der automatische 15-Minuten-Mailabruf brach mit einem Fehler ab. Jetzt laeuft der Hintergrund-Sync wieder zuverlaessig durch.",
+    "published_at":  "2026-06-04"
 }
