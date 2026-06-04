@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.3",
-    "image_tag":  "1.0.3",
-    "release_notes":  "Google Drive: Ordnerauswahl funktioniert jetzt auch bei sehr grossen Drives (zehntausende Ordner). Schrittweise Navigation statt alles auf einmal zu laden.",
+    "version":  "1.0.4",
+    "image_tag":  "1.0.4",
+    "release_notes":  "Google Drive: Datei-Vorschau ('Dateien anzeigen') laeuft bei sehr grossen Ordnern nicht mehr ins Timeout (zeitlich begrenzte Stichprobe). Indexierung bleibt vollstaendig. Kleiner Hinweis zur Ordner-Navigation.",
     "published_at":  "2026-06-04"
 }
