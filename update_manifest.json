@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.10",
-    "image_tag":  "1.0.10",
-    "release_notes":  "Mehr Dateien erfasst: DWG-Plaene ohne Textbeschriftung werden per Bildanalyse beschrieben; alte Excel-Dateien (.xls) sind jetzt lesbar; die Plan-Erkennung greift nicht mehr versehentlich bei Log-/Word-Dateien.",
+    "version":  "1.0.12",
+    "image_tag":  "1.0.12",
+    "release_notes":  "Inbox-Assistent stark verbessert: liest jetzt den KOMPLETTEN Mail-Verlauf (statt nur der ersten Zeilen), schlaegt das passende Projekt vor (per Dropdown bestaetigen oder korrigieren) und der Button heisst jetzt 'Antwort vorbereiten'. Antworten werden weiterhin nur als Entwurf erstellt, nie automatisch gesendet. Ausserdem: Spam-/Smalltalk-Mails bekommen keine Anhang-Indexierung mehr (spart Kosten).",
     "published_at":  "2026-06-05"
 }
