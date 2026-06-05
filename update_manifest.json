@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.6",
-    "image_tag":  "1.0.6",
-    "release_notes":  "Stabilitaet: Es laeuft nur noch EIN grosser Sync gleichzeitig (Doc oder Mail) — verhindert Ueberlastung des Servers und die Meldung 'API nicht erreichbar'. Haengengebliebene Jobs werden beim Neustart sauber aufgeraeumt.",
+    "version":  "1.0.7",
+    "image_tag":  "1.0.7",
+    "release_notes":  "Kosten: Sehr kleine Bilder (Logos/Icons) werden bei der Indexierung nicht mehr durch die teure Bildanalyse geschickt. Das Bild-Analyse-Modell ist jetzt umstellbar (guenstigere Variante moeglich).",
     "published_at":  "2026-06-05"
 }
