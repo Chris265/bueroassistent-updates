@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.8",
-    "image_tag":  "1.0.8",
-    "release_notes":  "Neu: E-Mail-Anhaenge (PDF, Word, Excel, Bilder) werden jetzt mit-indexiert und sind durchsuchbar (Projekt 'E-Mail-Anhaenge'). Bestehende Mails werden beim naechsten Sync nachgezogen.",
+    "version":  "1.0.10",
+    "image_tag":  "1.0.10",
+    "release_notes":  "Mehr Dateien erfasst: DWG-Plaene ohne Textbeschriftung werden per Bildanalyse beschrieben; alte Excel-Dateien (.xls) sind jetzt lesbar; die Plan-Erkennung greift nicht mehr versehentlich bei Log-/Word-Dateien.",
     "published_at":  "2026-06-05"
 }
