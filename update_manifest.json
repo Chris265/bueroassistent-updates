@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.12",
-    "image_tag":  "1.0.12",
-    "release_notes":  "Inbox-Assistent stark verbessert: liest jetzt den KOMPLETTEN Mail-Verlauf (statt nur der ersten Zeilen), schlaegt das passende Projekt vor (per Dropdown bestaetigen oder korrigieren) und der Button heisst jetzt 'Antwort vorbereiten'. Antworten werden weiterhin nur als Entwurf erstellt, nie automatisch gesendet. Ausserdem: Spam-/Smalltalk-Mails bekommen keine Anhang-Indexierung mehr (spart Kosten).",
+    "version":  "1.0.14",
+    "image_tag":  "1.0.14",
+    "release_notes":  "Inbox-Assistent deutlich verbessert: Die Recherche-Fakten erscheinen jetzt als sauberes Markdown (kein technisches JSON mehr), das passende Projekt wird zuverlaessig erkannt, und es gibt ueberall einen Loeschen-Button, der einen Eintrag aus dem Posteingang entfernt (die Mail in Gmail bleibt). Neu: Sammel-Projekt 'Buero/Verwaltung' fuer internes/administratives (Rechnungen, Bewerbungen, Schriftverkehr ohne Bauvorhaben) - Mail-Anhaenge liegen jetzt dort, und der Assistent schlaegt es vor, wenn kein Bauvorhaben passt.",
     "published_at":  "2026-06-05"
 }
