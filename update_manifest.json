@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.23",
-    "image_tag":  "1.0.23",
-    "release_notes":  "OCR Prozess-Gruppen-Kill: ocrmypdf+tesseract werden als ganze Gruppe beendet (start_new_session/os.killpg). Behebt eingefrorenen Sync durch verwaiste tesseract-Enkelprozesse, die die Output-Pipe offen hielten und communicate() blockierten. Damit ist die OCR-Haertung vollstaendig + der Backfill laeuft unbeaufsichtigt robust.",
+    "version":  "1.0.24",
+    "image_tag":  "1.0.24",
+    "release_notes":  "OCR + Plan-Vision safe-by-design: Prozessbaum-Kill (psutil) beendet ocrmypdf+tesseract zuverlaessig (os.killpg erwischte den tesseract-Enkel nicht) + Reaper-Thread gegen streunende tesseract + Plan-Vision-Per-Datei-Timeout 150s + Stub-Eintrag fuer Dateien ohne Text (nichts geht verloren) + OCR-Speed (--jobs). Bulk indexiert wieder ALLES voll, kann aber nicht mehr einfrieren - kein Schalter noetig.",
     "published_at":  "2026-06-07"
 }
