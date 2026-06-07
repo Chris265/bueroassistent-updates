@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.20",
-    "image_tag":  "1.0.20",
-    "release_notes":  "On-demand DWG-Vision (Chat+Mail): Bulk-Vision per DWG_VISION_FALLBACK abschaltbar; textlose Schemas werden bei der ersten echten Frage automatisch per Vision analysiert + 30-Tage-Cache; Re-Analyse-Chunk-Duplikate behoben.",
-    "published_at":  "2026-06-06"
+    "version":  "1.0.21",
+    "image_tag":  "1.0.21",
+    "release_notes":  "Sync-Härtung: harte Timeouts auf Voyage-Embedding (150s) + Google-Drive-Download (300s). Eine stockende Verbindung friert den Backfill nicht mehr ein — Timeout bedeutet: betroffene Datei überspringen und weiter.",
+    "published_at":  "2026-06-07"
 }
