@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.24",
-    "image_tag":  "1.0.24",
-    "release_notes":  "OCR + Plan-Vision safe-by-design: Prozessbaum-Kill (psutil) beendet ocrmypdf+tesseract zuverlaessig (os.killpg erwischte den tesseract-Enkel nicht) + Reaper-Thread gegen streunende tesseract + Plan-Vision-Per-Datei-Timeout 150s + Stub-Eintrag fuer Dateien ohne Text (nichts geht verloren) + OCR-Speed (--jobs). Bulk indexiert wieder ALLES voll, kann aber nicht mehr einfrieren - kein Schalter noetig.",
+    "version":  "1.0.25",
+    "image_tag":  "1.0.25",
+    "release_notes":  "Bulk-Sync leicht: OCR + Plan-Vision laufen NICHT mehr im Bulk (gescannte Plaene trieben tesseract in den unkillbaren Kernel-D-State -\u003e Freeze). Bulk indexiert jede Datei nur per Text+Name+Embedding (kann nicht haengen); OCR und Plan-Vision laufen on-demand, wenn der Agent eine Datei wirklich braucht (DWG-Muster). DEVNULL statt Pipes gegen den Pipe-Block. Einzel-Upload behaelt OCR (DEVNULL-safe).",
     "published_at":  "2026-06-07"
 }
