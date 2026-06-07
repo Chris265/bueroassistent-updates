@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.26",
-    "image_tag":  "1.0.26",
-    "release_notes":  "DWG/ODA-Pfad safe gegen D-State: DEVNULL statt PIPE in allen 3 Konvertern (ODA, libredwg, LibreOffice). Ein haengender (D-State) Konverter-Enkel kann die Output-Pipe nicht mehr halten, auf die communicate() wartet -\u003e kein Freeze. Gleicher bewaehrter Fix wie bei OCR (1.0.25).",
-    "published_at":  "2026-06-07"
+    "version":  "1.0.27",
+    "image_tag":  "1.0.27",
+    "release_notes":  "DB-Lock-Contention behoben (per py-spy-Stacktrace exakt lokalisiert): zwei parallele Sync-Worker froren im commit() ein, wenn sie gleichzeitig dasselbe neue Projekt anlegten (Unique-Constraint-Lock-Wait). Fix: Prozess-Lock um den PostgreSQL-Write in _store_in_db (serialisiert das Projekt-Anlegen) + lock_timeout=20s/statement_timeout=45s auf der DB-Engine (keine Query haengt mehr unbegrenzt). Damit ist der dritte und letzte Haenger-Typ zu.",
+    "published_at":  "2026-06-08"
 }
