@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.21",
-    "image_tag":  "1.0.21",
-    "release_notes":  "Sync-Härtung: harte Timeouts auf Voyage-Embedding (150s) + Google-Drive-Download (300s). Eine stockende Verbindung friert den Backfill nicht mehr ein — Timeout bedeutet: betroffene Datei überspringen und weiter.",
+    "version":  "1.0.22",
+    "image_tag":  "1.0.22",
+    "release_notes":  "OCR-Deckel: tesseract pro Seite 90s + ocrmypdf gesamt 180s (statt 30 Min). Detailreiche Scans/Fotos blockieren den unbeaufsichtigten Sync nicht mehr — Seite ohne OCR-Text statt Minuten-Grind. Damit sind alle blockierenden I/O-Punkte gedeckelt.",
     "published_at":  "2026-06-07"
 }
