@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.27",
-    "image_tag":  "1.0.27",
-    "release_notes":  "DB-Lock-Contention behoben (per py-spy-Stacktrace exakt lokalisiert): zwei parallele Sync-Worker froren im commit() ein, wenn sie gleichzeitig dasselbe neue Projekt anlegten (Unique-Constraint-Lock-Wait). Fix: Prozess-Lock um den PostgreSQL-Write in _store_in_db (serialisiert das Projekt-Anlegen) + lock_timeout=20s/statement_timeout=45s auf der DB-Engine (keine Query haengt mehr unbegrenzt). Damit ist der dritte und letzte Haenger-Typ zu.",
+    "version":  "1.0.28",
+    "image_tag":  "1.0.28",
+    "release_notes":  "Aenderungs-Erkennung bei Drive: in Drive EDITIERTE (bereits indexierte) Dateien werden jetzt neu geladen statt aus dem Cache als \u0027unveraendert\u0027 geliefert (modifiedTime-Vergleich + mtime-Stempel der Cache-Datei). Beim Re-Index werden die ALTEN Qdrant-Chunks + das alte Document derselben Datei geloescht -\u003e keine Dubletten (alte+neue Version). Loest die zuvor gefundene Luecke, dass editierte Drive-Dokumente nie aktualisiert wurden.",
     "published_at":  "2026-06-08"
 }
