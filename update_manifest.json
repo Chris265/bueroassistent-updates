@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.31",
-    "image_tag":  "1.0.31",
-    "release_notes":  "1.0.31: Struktur-Sync L1 — Reconcile/Prune. Nach fehlerfreiem Vollsync werden Dokumente entfernt, deren Drive-fileId nicht mehr im Listing ist (geloescht/verschoben). Mengen-Deckel als Sicherheitsnetz, Fehl-Loeschung selbstheilend.",
+    "version":  "1.0.32",
+    "image_tag":  "1.0.32",
+    "release_notes":  "1.0.32: Struktur-Sync Rename/Move-Update — Match per cloud_file_id; bei Drift Name/Pfad/Projekt werden Document + Qdrant-Chunk-Payloads nachgezogen (set_payload, kein Re-Embedding). Behebt stale-label bei Datei-Rename + Ordner-Rename/Move.",
     "published_at":  "2026-06-09"
 }
