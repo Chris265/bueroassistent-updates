@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.30",
-    "image_tag":  "1.0.30",
-    "release_notes":  "1.0.30: Struktur-Sync L2 — cloud_file_id + last_seen_at je Dokument mitschreiben (Identitaet + zuletzt-im-Drive-gesehen). Grundlage fuer Reconcile/Prune. Loescht nichts.",
+    "version":  "1.0.31",
+    "image_tag":  "1.0.31",
+    "release_notes":  "1.0.31: Struktur-Sync L1 — Reconcile/Prune. Nach fehlerfreiem Vollsync werden Dokumente entfernt, deren Drive-fileId nicht mehr im Listing ist (geloescht/verschoben). Mengen-Deckel als Sicherheitsnetz, Fehl-Loeschung selbstheilend.",
     "published_at":  "2026-06-09"
 }
