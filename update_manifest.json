@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.29",
-    "image_tag":  "1.0.29",
-    "release_notes":  "1.0.29: index_status-Tool + Teilergebnis-Fallback + Fuzzy/Umlaut-Suche; Chat Soft-Delete + Owner-Check + Papierkorb; Drive \u0027Jetzt synchronisieren\u0027 (schleuse-geschuetzt); Mail Loeschen-\u003eAusblenden + Entwurf-verwerfen + Papierkorb (nie Gmail)",
+    "version":  "1.0.30",
+    "image_tag":  "1.0.30",
+    "release_notes":  "1.0.30: Struktur-Sync L2 — cloud_file_id + last_seen_at je Dokument mitschreiben (Identitaet + zuletzt-im-Drive-gesehen). Grundlage fuer Reconcile/Prune. Loescht nichts.",
     "published_at":  "2026-06-09"
 }
