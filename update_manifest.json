@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.33",
-    "image_tag":  "1.0.33",
-    "release_notes":  "1.0.33: Fix Sync-Robustheit — _update_document_source_times macht session.rollback() bei Fehler (z.B. Lock-Timeout), verhindert Transaktions-Kaskade die ganze Sync-Quellen abbrechen liess (2024). Eine Datei faellt aus, der Sync laeuft weiter.",
+    "version":  "1.0.37",
+    "image_tag":  "1.0.37",
+    "release_notes":  "1.0.37: Agent-Regel — Geschosse/Mengen/Maesse aus den vorhandenen Dateien ZAEHLEN statt schaetzen (list_floor_plans/find_file_by_name); Geschosse aus Dateinamen UG/EG/OGn ableiten; Schaetzungen nur mit klarer Naeherungs-Kennzeichnung + Quelle.",
     "published_at":  "2026-06-09"
 }
