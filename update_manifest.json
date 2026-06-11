@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.40",
-    "image_tag":  "1.0.40",
-    "release_notes":  "1.0.40: Fundus Phase 1b — React-Geruest live unter /app (Vite+React, Design-Tokens 1:1, IBM Plex self-hosted, Navy-Sidebar 3 Gruppen rollenbasiert, Login mit Token-Flow, Theme-Toggle, 9 Platzhalter-Routen, FastAPI-Static-Serving same-origin).",
+    "version":  "1.0.41",
+    "image_tag":  "1.0.41",
+    "release_notes":  "1.0.41: Fundus Phase 1c — echter Chat (POST /api/chat, Verlauf+Papierkorb, Tool-Badges, Kosten) + echte Uebersicht (KPI-Count-up, Sync-Button+JobMonitor, Aufgaben) unter /app; GET /api/instance (TENANT_ID aus .env + Bueroname aus Lizenz) — Login ohne Mandant-Feld; 12 Design-Komponenten portiert; docs/Anleitung-Neues-Buero.pdf.",
     "published_at":  "2026-06-11"
 }
