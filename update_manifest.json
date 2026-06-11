@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.38",
-    "image_tag":  "1.0.38",
-    "release_notes":  "1.0.38: Fundus Phase 0 — Voyage-API-Schluessel im Frontend (2 gleichwertige Karten, 3 Zustaende) + Audit-Log-Fundament (audit_events-Tabelle, log_event-Hooks fuer Login/User-CRUD/Keys/Sync/Chat, GET /api/admin/audit paginiert).",
+    "version":  "1.0.39",
+    "image_tag":  "1.0.39",
+    "release_notes":  "1.0.39: Fundus Phase 1a — Auth-Tokens (HMAC, login liefert access_token, Soft-Middleware mit AUTH_ENFORCE-Schalter, change-password + must_change_password) + 6 neue SPA-Endpoints (/api/chat, /api/norms/search, /api/floor-plans/ask + ask-direct, /api/documents/upload, /api/norms/upload). + python-multipart.",
     "published_at":  "2026-06-11"
 }
