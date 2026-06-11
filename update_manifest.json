@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.37",
-    "image_tag":  "1.0.37",
-    "release_notes":  "1.0.37: Agent-Regel — Geschosse/Mengen/Maesse aus den vorhandenen Dateien ZAEHLEN statt schaetzen (list_floor_plans/find_file_by_name); Geschosse aus Dateinamen UG/EG/OGn ableiten; Schaetzungen nur mit klarer Naeherungs-Kennzeichnung + Quelle.",
-    "published_at":  "2026-06-09"
+    "version":  "1.0.38",
+    "image_tag":  "1.0.38",
+    "release_notes":  "1.0.38: Fundus Phase 0 — Voyage-API-Schluessel im Frontend (2 gleichwertige Karten, 3 Zustaende) + Audit-Log-Fundament (audit_events-Tabelle, log_event-Hooks fuer Login/User-CRUD/Keys/Sync/Chat, GET /api/admin/audit paginiert).",
+    "published_at":  "2026-06-11"
 }
