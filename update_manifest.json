@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.39",
-    "image_tag":  "1.0.39",
-    "release_notes":  "1.0.39: Fundus Phase 1a — Auth-Tokens (HMAC, login liefert access_token, Soft-Middleware mit AUTH_ENFORCE-Schalter, change-password + must_change_password) + 6 neue SPA-Endpoints (/api/chat, /api/norms/search, /api/floor-plans/ask + ask-direct, /api/documents/upload, /api/norms/upload). + python-multipart.",
+    "version":  "1.0.40",
+    "image_tag":  "1.0.40",
+    "release_notes":  "1.0.40: Fundus Phase 1b — React-Geruest live unter /app (Vite+React, Design-Tokens 1:1, IBM Plex self-hosted, Navy-Sidebar 3 Gruppen rollenbasiert, Login mit Token-Flow, Theme-Toggle, 9 Platzhalter-Routen, FastAPI-Static-Serving same-origin).",
     "published_at":  "2026-06-11"
 }
