@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.55",
-    "image_tag":  "1.0.55",
-    "release_notes":  "Sichtbarkeits-Schutz: SQL-Agent-Tools abgedichtet",
+    "version":  "1.0.56",
+    "image_tag":  "1.0.56",
+    "release_notes":  "Sichtbarkeit: Viewer-Kontext im Endpoint-Thread + Mengenermittlung abgedichtet",
     "published_at":  "2026-06-12"
 }
