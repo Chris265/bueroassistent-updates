@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.50",
-    "image_tag":  "1.0.50",
-    "release_notes":  "1.0.50: Fix — chat/export-pdf warf NameError (datetime nicht modulweit importiert) → lokaler Import fuer den Dateinamen.",
+    "version":  "1.0.51",
+    "image_tag":  "1.0.51",
+    "release_notes":  "1.0.51: PDF-Export Layout-Polish — Wortmarke eigene Zeilenhoehe (keine Ueberlappung mit Kopfzeile), Frage-Kasten mit spaceBefore (Titel nicht mehr angeschnitten).",
     "published_at":  "2026-06-12"
 }
