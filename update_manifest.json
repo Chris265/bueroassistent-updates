@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.52",
-    "image_tag":  "1.0.52",
-    "release_notes":  "1.0.52: Phase 2.7 — Drive-Ordner-Navigator in React (lazy /api/drive/subfolders, Breadcrumb, Projekt-Modus, Verbinden+Erstsync; letzter Streamlit-Verweis entfernt) + Inbox-Badge (GET /api/inbox/count ohne Ausgeblendete, Teal-Pill in der Sidebar, 90s-Refresh).",
+    "version":  "1.0.53",
+    "image_tag":  "1.0.53",
+    "release_notes":  "1.0.53: Drive-Reconnect in der Quellen-Seite (2-Schritt-OAuth wie Gmail: /api/drive/auth-url + auth-complete) — noetig weil das Drive-Token nach der Google-OAuth-Umstellung invalid_grant wirft.",
     "published_at":  "2026-06-12"
 }
