@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.42",
-    "image_tag":  "1.0.42",
-    "release_notes":  "1.0.42: Fundus Phase 1d — ALLE 9 Seiten in React (Inbox-Stepper, Projekte, Mengen, Normen, Quellen, Einstellungen, Admin mit Audit-Log) + Markdown-Rendering im Chat (react-markdown, Fundus-Stil). 7 Pattern-Komponenten portiert.",
+    "version":  "1.0.43",
+    "image_tag":  "1.0.43",
+    "release_notes":  "1.0.43: Phase 2.1 Quellen-Viewer — Klick auf Quellen-Chip (Chat) oder Norm-Treffer oeffnet Original-Passage mit Highlight + Kontext + \u0027Original-Datei oeffnen\u0027. Neu: GET /api/sources/passage + /api/sources/file (Pfad aus DB), Middleware-Token-Query-Fallback.",
     "published_at":  "2026-06-12"
 }
