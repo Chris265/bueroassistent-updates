@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.45",
-    "image_tag":  "1.0.45",
-    "release_notes":  "1.0.45: Phase 2.3 Befehlspalette Strg+K — globale Schnellsuche ueber Projekte/Dateien/Normen/Mails (GET /api/search/quick, SQL-ilike, gruppiert); Treffer oeffnen Projekt-Detail, Quellen-Viewer oder Inbox; Sidebar-Suchfeld verdrahtet.",
+    "version":  "1.0.46",
+    "image_tag":  "1.0.46",
+    "release_notes":  "1.0.46: Phase 2.4 — Erstanmeldung (Pflicht-Passwortwechsel mit Live-Regelpruefung; Admin-angelegte Nutzer + PW-Resets setzen must_change_password) + Onboarding-Wizard fuer frische Installationen (3 Schritte, echte Status/Sync/JobMonitor, Vorschau via /app/?onboarding=1).",
     "published_at":  "2026-06-12"
 }
