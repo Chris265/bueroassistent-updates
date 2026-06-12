@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.56",
-    "image_tag":  "1.0.56",
-    "release_notes":  "Sichtbarkeit: Viewer-Kontext im Endpoint-Thread + Mengenermittlung abgedichtet",
-    "published_at":  "2026-06-12"
+    "version":  "1.0.57",
+    "image_tag":  "1.0.57",
+    "release_notes":  "Persoenliche Postfaecher: Mails strikt pro Nutzer (Teil 2)",
+    "published_at":  "2026-06-13"
 }
