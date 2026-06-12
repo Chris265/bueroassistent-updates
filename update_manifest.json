@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.44",
-    "image_tag":  "1.0.44",
-    "release_notes":  "1.0.44: Phase 2.2 Projekt-Detailseite — Klick auf Projekt oeffnet Detail (Statistik-Kacheln, zuletzt geaenderte Dokumente mit Quellen-Viewer, zugeordnete Mails via project_hint, \u0027Im Chat fragen\u0027 mit Vorbefuellung, Archivieren). Neu: GET /api/projects/{tenant}/{id}/detail.",
+    "version":  "1.0.45",
+    "image_tag":  "1.0.45",
+    "release_notes":  "1.0.45: Phase 2.3 Befehlspalette Strg+K — globale Schnellsuche ueber Projekte/Dateien/Normen/Mails (GET /api/search/quick, SQL-ilike, gruppiert); Treffer oeffnen Projekt-Detail, Quellen-Viewer oder Inbox; Sidebar-Suchfeld verdrahtet.",
     "published_at":  "2026-06-12"
 }
