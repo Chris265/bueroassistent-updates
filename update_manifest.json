@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.48",
-    "image_tag":  "1.0.48",
-    "release_notes":  "1.0.48: Phase 2.5 Fristen-System — deadlines-Tabelle + CRUD-API (Dringlichkeit serverseitig: kritisch \u003c3 Tage mit Puls, Warnung \u003c7; Audit-Events) + Fristen-Panel auf der Uebersicht (DeadlineItem, Abhaken per Hover, Frist-anlegen-Modal).",
+    "version":  "1.0.49",
+    "image_tag":  "1.0.49",
+    "release_notes":  "1.0.49: Phase 2.6 — Chat-Antwort als PDF-Download (POST /api/chat/export-pdf, core/pdf_export.py mit reportlab, gebrandetes A4 mit Frage/Antwort/Markdown-light/Disclaimer; \u0027Als PDF\u0027-Knopf je Antwort). Bewusst Download statt Drive-Ablage.",
     "published_at":  "2026-06-12"
 }
