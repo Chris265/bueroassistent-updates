@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.41",
-    "image_tag":  "1.0.41",
-    "release_notes":  "1.0.41: Fundus Phase 1c — echter Chat (POST /api/chat, Verlauf+Papierkorb, Tool-Badges, Kosten) + echte Uebersicht (KPI-Count-up, Sync-Button+JobMonitor, Aufgaben) unter /app; GET /api/instance (TENANT_ID aus .env + Bueroname aus Lizenz) — Login ohne Mandant-Feld; 12 Design-Komponenten portiert; docs/Anleitung-Neues-Buero.pdf.",
-    "published_at":  "2026-06-11"
+    "version":  "1.0.42",
+    "image_tag":  "1.0.42",
+    "release_notes":  "1.0.42: Fundus Phase 1d — ALLE 9 Seiten in React (Inbox-Stepper, Projekte, Mengen, Normen, Quellen, Einstellungen, Admin mit Audit-Log) + Markdown-Rendering im Chat (react-markdown, Fundus-Stil). 7 Pattern-Komponenten portiert.",
+    "published_at":  "2026-06-12"
 }
