@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.54",
-    "image_tag":  "1.0.54",
-    "release_notes":  "Sichtbarkeits-Schutz: Nur-Admin-Quellen + Rollen-Gating (Teil 1)",
+    "version":  "1.0.55",
+    "image_tag":  "1.0.55",
+    "release_notes":  "Sichtbarkeits-Schutz: SQL-Agent-Tools abgedichtet",
     "published_at":  "2026-06-12"
 }
