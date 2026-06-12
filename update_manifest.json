@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.49",
-    "image_tag":  "1.0.49",
-    "release_notes":  "1.0.49: Phase 2.6 — Chat-Antwort als PDF-Download (POST /api/chat/export-pdf, core/pdf_export.py mit reportlab, gebrandetes A4 mit Frage/Antwort/Markdown-light/Disclaimer; \u0027Als PDF\u0027-Knopf je Antwort). Bewusst Download statt Drive-Ablage.",
+    "version":  "1.0.50",
+    "image_tag":  "1.0.50",
+    "release_notes":  "1.0.50: Fix — chat/export-pdf warf NameError (datetime nicht modulweit importiert) → lokaler Import fuer den Dateinamen.",
     "published_at":  "2026-06-12"
 }
