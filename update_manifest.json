@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.51",
-    "image_tag":  "1.0.51",
-    "release_notes":  "1.0.51: PDF-Export Layout-Polish — Wortmarke eigene Zeilenhoehe (keine Ueberlappung mit Kopfzeile), Frage-Kasten mit spaceBefore (Titel nicht mehr angeschnitten).",
+    "version":  "1.0.52",
+    "image_tag":  "1.0.52",
+    "release_notes":  "1.0.52: Phase 2.7 — Drive-Ordner-Navigator in React (lazy /api/drive/subfolders, Breadcrumb, Projekt-Modus, Verbinden+Erstsync; letzter Streamlit-Verweis entfernt) + Inbox-Badge (GET /api/inbox/count ohne Ausgeblendete, Teal-Pill in der Sidebar, 90s-Refresh).",
     "published_at":  "2026-06-12"
 }
