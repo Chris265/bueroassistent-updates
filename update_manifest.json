@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.62",
-    "image_tag":  "1.0.62",
-    "release_notes":  "Fristen-KI schaerfer: nur echte Abgabefristen",
+    "version":  "1.0.63",
+    "image_tag":  "1.0.63",
+    "release_notes":  "Fristen-KI: kind-Klassifikation + Netz-Filter gegen Veranstaltungs-Rauschen",
     "published_at":  "2026-06-13"
 }
