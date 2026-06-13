@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.67",
-    "image_tag":  "1.0.67",
-    "release_notes":  "PDF-Export: echte Tabellen + keine Kaestchen",
+    "version":  "1.0.68",
+    "image_tag":  "1.0.68",
+    "release_notes":  "Datei direkt im Chat anhaengen (Bueroklammer)",
     "published_at":  "2026-06-14"
 }
