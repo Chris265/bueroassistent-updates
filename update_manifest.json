@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.63",
-    "image_tag":  "1.0.63",
-    "release_notes":  "Fristen-KI: kind-Klassifikation + Netz-Filter gegen Veranstaltungs-Rauschen",
+    "version":  "1.0.64",
+    "image_tag":  "1.0.64",
+    "release_notes":  "Fundus-Logo: Favicon + Login + Sidebar",
     "published_at":  "2026-06-13"
 }
