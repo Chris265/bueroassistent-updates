@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.65",
-    "image_tag":  "1.0.65",
-    "release_notes":  "Agent findet Inhalte aus E-Mail-Anhaengen (Tool-Strategie)",
-    "published_at":  "2026-06-13"
+    "version":  "1.0.66",
+    "image_tag":  "1.0.66",
+    "release_notes":  "Echte Mail-Anhang-Verknuepfung (email_message_id)",
+    "published_at":  "2026-06-14"
 }
