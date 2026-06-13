@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.66",
-    "image_tag":  "1.0.66",
-    "release_notes":  "Echte Mail-Anhang-Verknuepfung (email_message_id)",
+    "version":  "1.0.67",
+    "image_tag":  "1.0.67",
+    "release_notes":  "PDF-Export: echte Tabellen + keine Kaestchen",
     "published_at":  "2026-06-14"
 }
