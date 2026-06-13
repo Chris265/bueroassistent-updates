@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.58",
-    "image_tag":  "1.0.58",
-    "release_notes":  "Zugriffsschutz-Audit: 18 Lecks geschlossen + Admin-Gating",
+    "version":  "1.0.59",
+    "image_tag":  "1.0.59",
+    "release_notes":  "KI-Fristen-Erkennung (Automatisch erkennen)",
     "published_at":  "2026-06-13"
 }
