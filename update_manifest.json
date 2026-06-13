@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.64",
-    "image_tag":  "1.0.64",
-    "release_notes":  "Fundus-Logo: Favicon + Login + Sidebar",
+    "version":  "1.0.65",
+    "image_tag":  "1.0.65",
+    "release_notes":  "Agent findet Inhalte aus E-Mail-Anhaengen (Tool-Strategie)",
     "published_at":  "2026-06-13"
 }
