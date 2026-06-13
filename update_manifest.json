@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.68",
-    "image_tag":  "1.0.68",
-    "release_notes":  "Datei direkt im Chat anhaengen (Bueroklammer)",
+    "version":  "1.0.69",
+    "image_tag":  "1.0.69",
+    "release_notes":  "Web-Recherche im Chat + Chats endgueltig loeschen",
     "published_at":  "2026-06-14"
 }
