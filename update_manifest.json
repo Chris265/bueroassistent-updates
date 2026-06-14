@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.73",
-    "image_tag":  "1.0.73",
-    "release_notes":  "Kostenanzeige in Euro statt Dollar",
+    "version":  "1.0.74",
+    "image_tag":  "1.0.74",
+    "release_notes":  "Embedding-Fix: grosse Dateien sprengen nicht mehr das Voyage-Batch-Limit",
     "published_at":  "2026-06-14"
 }
