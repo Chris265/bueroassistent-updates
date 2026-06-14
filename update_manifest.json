@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.74",
-    "image_tag":  "1.0.74",
-    "release_notes":  "Embedding-Fix: grosse Dateien sprengen nicht mehr das Voyage-Batch-Limit",
+    "version":  "1.0.75",
+    "image_tag":  "1.0.75",
+    "release_notes":  "Embedding-Batch-Fix robust (rekursives Halbieren)",
     "published_at":  "2026-06-14"
 }
