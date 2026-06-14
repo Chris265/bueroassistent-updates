@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.72",
-    "image_tag":  "1.0.72",
-    "release_notes":  "KI-Antwort-Streaming-Effekt im Chat",
+    "version":  "1.0.73",
+    "image_tag":  "1.0.73",
+    "release_notes":  "Kostenanzeige in Euro statt Dollar",
     "published_at":  "2026-06-14"
 }
