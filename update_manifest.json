@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.71",
-    "image_tag":  "1.0.71",
-    "release_notes":  "Zugriffsschutz-Haertung (Agent-Tools + Fristen-Scanner + LIKE-Escape)",
+    "version":  "1.0.72",
+    "image_tag":  "1.0.72",
+    "release_notes":  "KI-Antwort-Streaming-Effekt im Chat",
     "published_at":  "2026-06-14"
 }
