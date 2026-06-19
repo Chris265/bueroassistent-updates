@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.84",
-    "image_tag":  "1.0.84",
-    "release_notes":  "",
-    "published_at":  "2026-06-18"
+    "version":  "1.0.85",
+    "image_tag":  "1.0.85",
+    "release_notes":  "Sync-Schleuse geschlossen: geplanter Mail-Poll markiert sich als schwer (kein paralleler Doc-Sync, RAM-Schutz auf 8-GB-Server).",
+    "published_at":  "2026-06-19"
 }
