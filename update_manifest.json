@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.86",
-    "image_tag":  "1.0.86",
-    "release_notes":  "Transaktionale Mails: Willkommens-Mail (neuer Mitarbeiter) + Admin-Guthaben-Alert. Versand default AUS, dreifacher Schutz gegen versehentlichen Versand beim Testen.",
-    "published_at":  "2026-06-19"
+    "version":  "1.0.87",
+    "image_tag":  "1.0.87",
+    "release_notes":  "Transaktionale Mails (Willkommen + Guthaben-Alert). SMTP komplett in der Admin-Oberflaeche konfigurierbar (multi-buero-tauglich, Gmail/Outlook-Vorlagen, App-Passwort-Hinweis). Versand default AUS.",
+    "published_at":  "2026-06-21"
 }
