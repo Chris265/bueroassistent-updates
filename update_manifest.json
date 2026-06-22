@@ -1,6 +1,6 @@
 {
     "version":  "1.0.87",
     "image_tag":  "1.0.87",
-    "release_notes":  "Transaktionale Mails (Willkommen + Guthaben-Alert). SMTP komplett in der Admin-Oberflaeche konfigurierbar (multi-buero-tauglich, Gmail/Outlook-Vorlagen, App-Passwort-Hinweis). Versand default AUS.",
-    "published_at":  "2026-06-21"
+    "release_notes":  "Transaktionale Mails (UI-konfigurierbares SMTP, multi-buero) + Backup-Haertung: count-basierte Retention + Disk-Waechter (verhindert Platte-voll/Postgres-Crash).",
+    "published_at":  "2026-06-22"
 }
