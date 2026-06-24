@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.88",
-    "image_tag":  "1.0.88",
-    "release_notes":  "Mailversand \u0027Mit Google verbinden\u0027 (Ein-Klick-OAuth statt SMTP/App-Passwort), SMTP als Fallback. Schutzschichten unveraendert.",
-    "published_at":  "2026-06-23"
+    "version":  "1.0.89",
+    "image_tag":  "1.0.89",
+    "release_notes":  "Oberflaeche \u0027Fokus\u0027: Heute-Startseite mit Frage-Feld, schwebende Top-Bar statt Sidebar, Strg+K-Launcher, Liquid-Glass-Theme, Chat-Verlauf als lokale Sidebar.",
+    "published_at":  "2026-06-24"
 }
