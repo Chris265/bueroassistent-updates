@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.94",
-    "image_tag":  "1.0.94",
-    "release_notes":  "Catch-up-Guard auch fuer Normen-Sync (Neustart loest keinen Re-Sync mehr aus)",
+    "version":  "1.0.95",
+    "image_tag":  "1.0.95",
+    "release_notes":  "Modell-IDs zentralisiert (config/models.py): Sonnet 5 / Opus 4.8 / Haiku 4.5; kaputtes Dropdown korrigiert",
     "published_at":  "2026-07-01"
 }
