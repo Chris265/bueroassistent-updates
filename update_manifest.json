@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.92",
-    "image_tag":  "1.0.92",
-    "release_notes":  "find_file_by_name nennt den Drive-Ordnerpfad (\u0027in welchem Ordner liegt Datei X\u0027)",
+    "version":  "1.0.93",
+    "image_tag":  "1.0.93",
+    "release_notes":  "Ordner-Pfad in find_file_by_name + Scheduler-Fix (kein Re-Sync bei Neustart)",
     "published_at":  "2026-07-01"
 }
