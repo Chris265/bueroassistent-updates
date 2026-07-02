@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.95",
-    "image_tag":  "1.0.95",
-    "release_notes":  "Modell-IDs zentralisiert (config/models.py): Sonnet 5 / Opus 4.8 / Haiku 4.5; kaputtes Dropdown korrigiert",
-    "published_at":  "2026-07-01"
+    "version":  "1.0.96",
+    "image_tag":  "1.0.96",
+    "release_notes":  "Rollen vereinfacht: Admin/Nutzer (Editor abgeschafft); Nutzer duerfen Sync anstossen",
+    "published_at":  "2026-07-02"
 }
