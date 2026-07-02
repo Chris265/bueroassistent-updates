@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.96",
-    "image_tag":  "1.0.96",
-    "release_notes":  "Rollen vereinfacht: Admin/Nutzer (Editor abgeschafft); Nutzer duerfen Sync anstossen",
-    "published_at":  "2026-07-02"
+    "version":  "1.0.97",
+    "image_tag":  "1.0.97",
+    "release_notes":  "Sync-Abbruch wirkt jetzt wirklich: Sammel-Lauf stoppt, kein Prune nach Abbruch",
+    "published_at":  "2026-07-03"
 }
