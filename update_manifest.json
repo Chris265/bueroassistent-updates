@@ -1,8 +1,10 @@
 {
-    "version":  "1.1.0",
+    "version":  "1.1.1",
     "image":  "ghcr.io/chris265/bueroassistent",
-    "image_tag":  "1.1.0",
-    "image_digest":  "sha256:cc14a72de0d749fa06e24b4da89e9285e83de971dd2011a8f4fe3ae30f73e767",
-    "release_notes":  "Sprint 1+2: Inbox-Fix (Erstlauf-Entwurf), menschliche Antwortentwuerfe, Update-Kanal mit Rollback, Capability-Status, eingeschraenkter Betrieb bei Cloud-Ausfall, Sicherheits-Haertung; Streamlit entfernt",
+    "image_tag":  "1.1.1",
+    "image_digest":  "sha256:6264c2f2d9f1825425dd74ce3d1508106df9f0d4767081d56dcebb9eab050587",
+    "compose_url":  "https://raw.githubusercontent.com/Chris265/bueroassistent-updates/main/docker-compose.kunde.yml",
+    "compose_sha256":  "726b7c05615f811faaa1e90a8e0d1524c1b4df8fc6887d2b2bf58bfd9a201e68",
+    "release_notes":  "Betriebsreife fuer weitere Bueros: Onboarding-Prozess, Flotten-Status, Compose-Verteilung ueber den Update-Kanal, Mandanten-Konfig aus dem Daten-Volume",
     "published_at":  "2026-07-08"
 }

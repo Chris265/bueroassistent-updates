@@ -1,0 +1,115 @@
+# ════════════════════════════════════════════════════════════════════
+#  docker-compose.kunde.yml — Installation BEIM KUNDEN (z.B. IBK)
+# ════════════════════════════════════════════════════════════════════
+#
+#  Unterschied zur Entwickler-compose: hier wird NICHT lokal gebaut,
+#  sondern das fertige Image aus deiner Registry geladen (image: …).
+#  Der Kunde braucht KEINEN Quellcode.
+#
+#  WICHTIG (Konfig-Trennung):
+#    - Der Programm-Code (inkl. config/settings.py + config/tenants/*.yaml)
+#      kommt komplett aus dem Image und wird NICHT überdeckt → Updates sauber.
+#    - Beschreibbare/geheime Dinge (API-Key, .secret_key, runtime_settings,
+#      Google-Tokens) liegen via CONFIG_PATH im data-Volume (./data/secure)
+#      → bleiben bei Updates erhalten.
+#
+#  Einmalig beim Kunden:
+#    1. docker login ghcr.io   (mit dem von dir gelieferten Read-Token)
+#    2. .env-Datei anlegen (siehe .env.example)
+#    3. (nur falls Google genutzt wird) oauth_credentials.json nach
+#       ./data/secure/ legen
+#    4. docker compose -f docker-compose.kunde.yml up -d
+#
+#  Updates: über den "Jetzt aktualisieren"-Button in der App
+#  (scripts/updater.ps1 als geplante Aufgabe — siehe VERTEILUNG.md).
+# ════════════════════════════════════════════════════════════════════
+
+# Image aus deiner Registry (GitHub-Name lowercase):
+x-bg-image: &bg-image ${BG_IMAGE:-ghcr.io/chris265/bueroassistent:latest}
+
+services:
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: buerogehirn-qdrant
+    restart: unless-stopped
+    # Sprint 1 (A1-6): NUR an localhost binden. Der api-/frontend-Container
+    # erreicht Qdrant ueber das Docker-Netz (QDRANT_URL=http://qdrant:6333) —
+    # der veroeffentlichte Host-Port ist ausschliesslich fuer externen
+    # Zugriff und wuerde die unauthentifizierte Vektor-DB sonst im ganzen
+    # (Kunden-)Netz erreichbar machen. 127.0.0.1 = nur vom Server selbst.
+    ports: ["127.0.0.1:6333:6333"]
+    volumes: ["qdrant_data:/qdrant/storage"]
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/127.0.0.1/6333' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  postgres:
+    image: postgres:15
+    container_name: buerogehirn-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER:     ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB:       ${POSTGRES_DB}
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER:-buerogehirn}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  api:
+    image: *bg-image
+    container_name: buerogehirn-api
+    restart: unless-stopped
+    command: >
+      uvicorn api.routes:app --host 0.0.0.0 --port 8000 --workers 1
+    ports: ["8000:8000"]
+    depends_on:
+      qdrant:    { condition: service_healthy }
+      postgres:  { condition: service_healthy }
+    env_file: [.env]
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      QDRANT_URL:   http://qdrant:6333
+      OLLAMA_URL:   ${OLLAMA_URL:-http://host.docker.internal:11434}
+      NORMS_BASE_PATH:          /app/data/normen
+      # Beschreibbare, verschlüsselte Ablage (API-Key, .secret_key, runtime_settings,
+      # Google-Tokens) — liegt im data-Volume, NICHT im Code-Ordner.
+      # So bleibt der Code (settings.py, tenants/) updatefähig und die Geheimnisse
+      # überleben Updates. NICHT mehr ./config mounten!
+      CONFIG_PATH:              /app/data/secure
+      GOOGLE_OAUTH_CREDENTIALS: /app/data/secure/oauth_credentials.json
+      GOOGLE_TOKEN_PATH:        /app/data/secure/google_token.json
+      GOOGLE_DRIVE_TOKEN_PATH:  /app/data/secure/google_drive_token.json
+      HOST_BASE_PATH: ${HOST_BASE_PATH}
+      OAUTHLIB_RELAX_TOKEN_SCOPE: "1"
+      # Update-Manifest (öffentliche URL) — aktiviert die Update-Prüfung:
+      UPDATE_MANIFEST_URL: ${UPDATE_MANIFEST_URL}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./backups:/app/backups
+      - ${HOST_BASE_PATH}:/host:ro
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+# Sprint 2 Kap.6: Streamlit-Legacy-Frontend ENTFERNT — die React-Oberfläche
+# wird von der API selbst unter /app ausgeliefert (Port 8000). WICHTIG beim
+# Ausrollen auf Bestandsservern: diese Compose-Datei VOR dem Image-Update
+# auf den Server bringen (siehe docs/OPS_RUNBOOK_SPRINT2.md Abschnitt 3),
+# sonst crasht der alte frontend-Service gegen das neue Image.
+
+volumes:
+  qdrant_data:  { driver: local }
+  postgres_data: { driver: local }
