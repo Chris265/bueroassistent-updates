@@ -1,6 +1,8 @@
 {
-    "version":  "1.0.97",
-    "image_tag":  "1.0.97",
-    "release_notes":  "Sync-Abbruch wirkt jetzt wirklich: Sammel-Lauf stoppt, kein Prune nach Abbruch",
-    "published_at":  "2026-07-03"
+    "version":  "1.1.0",
+    "image":  "ghcr.io/chris265/bueroassistent",
+    "image_tag":  "1.1.0",
+    "image_digest":  "sha256:cc14a72de0d749fa06e24b4da89e9285e83de971dd2011a8f4fe3ae30f73e767",
+    "release_notes":  "Sprint 1+2: Inbox-Fix (Erstlauf-Entwurf), menschliche Antwortentwuerfe, Update-Kanal mit Rollback, Capability-Status, eingeschraenkter Betrieb bei Cloud-Ausfall, Sicherheits-Haertung; Streamlit entfernt",
+    "published_at":  "2026-07-08"
 }
