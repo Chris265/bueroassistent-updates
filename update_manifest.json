@@ -1,10 +1,10 @@
 {
-    "version":  "1.1.2",
+    "version":  "1.2.0",
     "image":  "ghcr.io/chris265/bueroassistent",
-    "image_tag":  "1.1.2",
-    "image_digest":  "sha256:2b1f05b2a58d6ef6ad2ba337d16b5d4a6fae5d30bcea38a81f0ef49597b0c018",
+    "image_tag":  "1.2.0",
+    "image_digest":  "sha256:1fd1d716e7b1e72dfdf265f52f871674ca002d90e5fa1bf4e0d8540ba4f6ad4b",
     "compose_url":  "https://raw.githubusercontent.com/Chris265/bueroassistent-updates/main/docker-compose.kunde.yml",
     "compose_sha256":  "726b7c05615f811faaa1e90a8e0d1524c1b4df8fc6887d2b2bf58bfd9a201e68",
-    "release_notes":  "GAEB-Gesamtuebersicht lv_overview; limit=0-Falle behoben; Sichtbarkeits-Lecks in GAEB-Suche/Preisvergleich/REST-Route geschlossen",
-    "published_at":  "2026-07-30"
+    "release_notes":  "Der LV-Autor: Fundus baut Leistungsverzeichnisse aus den Alt-LVs des Bueros (Editor + Chat-Agent), mit Review-Pflicht und GAEB-X81-Export fuer ORCA AVA",
+    "published_at":  "2026-07-31"
 }
