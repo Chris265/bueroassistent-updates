@@ -97,6 +97,12 @@ services:
       - ./backups:/app/backups
       - ${HOST_BASE_PATH}:/host:ro
     extra_hosts: ["host.docker.internal:host-gateway"]
+    # v1.2.1: Protokoll begrenzen. Seit 1.2.1 schreibt die App ihre eigenen
+    # Meldungen (logging.basicConfig) — ohne Grenze wüchse das Docker-
+    # Protokoll unbegrenzt auf der Datenplatte. 3 × 50 MB = höchstens 150 MB.
+    logging:
+      driver: json-file
+      options: { max-size: "50m", max-file: "3" }
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
       interval: 15s
