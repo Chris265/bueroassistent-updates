@@ -1,10 +1,10 @@
 {
-    "version":  "1.3.0",
+    "version":  "1.3.1",
     "image":  "ghcr.io/chris265/bueroassistent",
-    "image_tag":  "1.3.0",
-    "image_digest":  "sha256:b935d29a0225b96e753c66bc7bb953ba62bc879e0731d9afb7b4f900b7e14859",
+    "image_tag":  "1.3.1",
+    "image_digest":  "sha256:455811a9094b96ace730568cd15070a1a7c067fed6d633487a646322a5bae702",
     "compose_url":  "https://raw.githubusercontent.com/Chris265/bueroassistent-updates/main/docker-compose.kunde.yml",
     "compose_sha256":  "188bf749e49ac2a66e3b149d2905113fee37878035f1137edaa2d7308a921790",
-    "release_notes":  "Neu: Fundus zeichnet (Stufe 1) - setzt Elektro- und HLS-Symbole als Entwurf in Architekten-Grundrisse: Symbol-Bibliothek, Regeln aus eigenen Zeichnungen (Lernbericht), Zeichen-Bildschirm, DWG-Download. Dazu: AMEV-Abgleich repariert.",
-    "published_at":  "2026-11-09"
+    "release_notes":  "Neu: Die Symbol-Bibliothek sammelt automatisch - Fundus sucht sich die Zeichnungen aus allen Projekten selbst und liest sie im Hintergrund. Dazu: neuere KI-Modelle (Claude Sonnet 5.5 und Haiku 5.5), Kostenanzeige korrigiert.",
+    "published_at":  "2026-11-10"
 }
